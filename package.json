@@ -1,0 +1,24 @@
+{
+  "name": "new-order",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Julian Knight, @charlesjuliank",
+  "license": "MIT",
+  "dependencies": {
+    "lame": "^1.2.3",
+    "speaker": "^0.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabidaudio/new-order.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rabidaudio/new-order/issues"
+  },
+  "homepage": "https://github.com/rabidaudio/new-order#readme",
+  "description": ""
+}
