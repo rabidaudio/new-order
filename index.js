@@ -1,4 +1,4 @@
 new require('http').Server().on('request', function(req, res){
   require('fs').createReadStream('airhorn.mp3').pipe(new require('lame').Decoder()).pipe(new require('speaker')());
-  res.end("🎉🎉🎉");
+  require('fs').createReadStream('index.html').pipe(res);
 }).listen( process.env.PORT || 5000);
