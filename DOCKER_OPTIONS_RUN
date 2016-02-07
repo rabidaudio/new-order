@@ -1,0 +1,2 @@
+# access sound card
+v /dev/snd:/dev/snd --privileged
