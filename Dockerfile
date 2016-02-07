@@ -2,7 +2,7 @@ FROM node
 
 RUN apt-get update && apt-get install -y alsa-base libasound2-dev
 
-VOLUME /dev/snd
+# VOLUME /dev/snd
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
